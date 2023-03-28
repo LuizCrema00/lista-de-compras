@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;400&family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap');
 
 :root {
-    --cor-primaria: #E96479;
-    --cor-secundaria: #E96479;
+    --cor-primaria: #FC2947;
+    --cor-secundaria: #FC2947;
     --fonte-primaria: 'Roboto', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-    padding: 10% 15%;
+    padding: 5% 15%;
     position: relative;
     
 }
@@ -46,6 +46,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: black;
     
 }
 
@@ -55,10 +56,11 @@ button {
     cursor: pointer;
     background-color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
+    color: black;
 }  
 
 .rodape {
-    padding: 1.5rem;
+    padding: 0.6rem;
     width: 100%;
     height: 2.5rem;
     position: absolute;
