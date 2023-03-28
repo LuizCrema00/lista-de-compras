@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;400&family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root {
+    --cor-primaria: #ffa500;
+    --cor-secundaria: #FDD36A;
+    --fonte-primaria: 'Roboto', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FDD36A;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+}
+
+body {
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cor-primaria);
+    box-sizing: border-box;
+    
+}
+
+.container {
+    padding: 10% 15%;
+    position: relative;
+    
+}
+
+.principal {
+    border: 2px solid;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button {
+    width: 6.25rem;
+    height: 2.25rem;
+    cursor: pointer;
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}  
+
+.rodape {
+    padding: 1.5rem;
+    width: 100%;
+    height: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: var(--cor-secundaria);
+   
+    
+}

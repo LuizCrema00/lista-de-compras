@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Lista de compras</h1>
+    </header>
+    <main class="container">
+        <div class="principal">
+            <p>Adicionar um item na sua lista de compras?</p>
+            <br>
+            <button onclick="adicionar()">Sim</button>
+            <br>
+            <button onclick="imprimir()">Não</button>
+            <br><br>
+                <div id="formulario" style="display: none">
+                    <label>Qual alimento deseja inserir?</label>
+                    <input type="text" id="alimento">
+                    <br><br>
+                    <label>Qual categoria esse alimento se encaixa?</label>
+                    <select id="categoria">
+                        <option value="frutas">Frutas</option>
+                        <option value="laticinios">Laticínios</option>
+                        <option value="congelados">Congelados</option>
+                        <option value="doces">Doces</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <br><br>
+                    <button onclick="adicionarAlimento()">Adicionar</button>
+                    <button onclick="limparFormulario()">Cancelar</button>
+                </div>
+            <br><br>
+            <h2>Itens adicionados:</h2>
+            <div id="lista">
+            </div>
+        </div>
+</main>
+
+<footer class="rodape">
+    <p>Desenvolvido por Luiz Guilherme Crema</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
