@@ -57,6 +57,7 @@ button {
     background-color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
     color: black;
+    border: 2px solid black;
 }  
 
 .rodape {
