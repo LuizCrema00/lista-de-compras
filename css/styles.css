@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;400&family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap');
 
 :root {
-    --cor-primaria: #ffa500;
-    --cor-secundaria: #FDD36A;
+    --cor-primaria: #E96479;
+    --cor-secundaria: #E96479;
     --fonte-primaria: 'Roboto', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
@@ -13,7 +13,7 @@
 }
 
 header {
-    background-color: #FDD36A;
+    background-color: var(--cor-secundaria);
     padding: 1.25rem;
     display: flex;
     align-items: center;
@@ -26,6 +26,7 @@ body {
     font-family: var(--fonte-secundaria);
     background-color: var(--cor-primaria);
     box-sizing: border-box;
+    background-image: url(../img/pngtree-cute-cartoon-vector-background-summer-fruits-image_470286.jpg);
     
 }
 
@@ -36,6 +37,7 @@ body {
 }
 
 .principal {
+    background-color: var(--cor-primaria);
     border: 2px solid;
     border-radius: 1.25rem;
     padding: 1.25rem;
