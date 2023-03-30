@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;400&family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap');
 
 :root {
-    --cor-primaria: #FC2947;
-    --cor-secundaria: #FC2947;
+    --cor-primaria: #B2A4FF;
     --fonte-primaria: 'Roboto', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
@@ -13,7 +12,7 @@
 }
 
 header {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
     padding: 1.25rem;
     display: flex;
     align-items: center;
@@ -26,7 +25,7 @@ body {
     font-family: var(--fonte-secundaria);
     background-color: var(--cor-primaria);
     box-sizing: border-box;
-    background-image: url(../img/pngtree-cute-cartoon-vector-background-summer-fruits-image_470286.jpg);
+    background-image: url(../img/pngtree-shopping-mall-supermarket-selection-merchandise-poster-background-material-picture-image_1048684.jpg);
     
 }
 
@@ -69,7 +68,7 @@ button {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
    
     
 }

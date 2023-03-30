@@ -19,12 +19,12 @@
     </header>
     <main class="container">
         <div class="principal">
-            <p>Adicionar um item na sua lista de compras?</p>
+            <p>Adicionar ou remover um item na sua lista de compras?</p>
             <br>
-            <button onclick="adicionar()">Sim</button>
+            <button onclick="adicionar()">Adicionar</button>
             <br>
-            <button onclick="imprimir()">Não</button>
-            <br><br>
+            <button style="display: none;" id="remover" onclick="remover()">Remover</button>
+            <br>
                 <div id="formulario" style="display: none">
                     <label>Qual alimento deseja inserir?</label>
                     <input type="text" id="alimento">
@@ -41,6 +41,15 @@
                     <button onclick="adicionarAlimento()">Adicionar</button>
                     <button onclick="limparFormulario()">Cancelar</button>
                 </div>
+            <div id="Remocao-de-item" style="display: none;">
+                <label>Qual alimento deseja remover da sua lista de compras?</label>
+                <input type="text" id="removerAlimento">
+                <br><br>
+                <button onclick="removerAlimento()">Confirmar</button>
+                <button onclick="limparRemocao()">Cancelar</button>
+                <br><br>
+                <div id="mensagem"></div>
+            </div>
             <br><br>
             <h2>Itens adicionados:</h2>
             <div id="lista">
